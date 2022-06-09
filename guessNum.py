@@ -7,11 +7,11 @@ while True:
 	m = int(m)
 	if r == m:
 		print('你猜對了!')
+		print('已經猜了', count, '次了')
 		break
 	elif r > m:
 		print('比答案小')
-		print('已經猜了'+ str(count) +'次了')
 	elif r < m:
 		print('比答案大')
-		print('已經猜了'+ str(count) +'次了')
+	print('已經猜了', count, '次了')
 		
