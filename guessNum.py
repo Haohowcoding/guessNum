@@ -1,6 +1,12 @@
 import random
-r = random.randint(1,100)
+
+min = input('請輸入最小範圍: ')
+max = input('請輸入最大範圍: ')
+min = int(min)
+max = int(max)
+r = random.randint(min,max)
 count = 0
+
 while True:
 	count = count + 1
 	m = input('請猜數字: ')
